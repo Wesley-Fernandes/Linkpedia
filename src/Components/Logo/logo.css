@@ -1,0 +1,15 @@
+.logo-component{
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.yellow{
+    background-clip: text;
+    background: linear-gradient(#e18700, #ffd43a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

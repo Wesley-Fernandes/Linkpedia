@@ -1,0 +1,42 @@
+.erro-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+}
+.erro-page span{
+    font-style: normal;
+    text-transform: uppercase;
+}
+.erro-page hr{
+    margin: 0.5rem;
+    width: 100%;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+}
+.erro-page .link{
+    margin-top: 2rem;
+    background: linear-gradient(#e18700, #ffd43a);
+    padding: 0.5rem 1rem;
+    border-bottom: 4px solid #6e590d;
+    border-radius: 10px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    transition: border-bottom, 0.3s;
+}
+.erro-page .link:hover{
+    filter: drop-shadow(5px 3px 5px rgb(0, 0, 0));
+    border: none;
+    transition: 0.3s;
+    color: #6e590d;
+
+}

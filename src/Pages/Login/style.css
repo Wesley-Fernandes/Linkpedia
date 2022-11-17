@@ -1,0 +1,31 @@
+.login-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-login{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-login{
+    width: 500px;
+}
+.form-login hr{
+    width: 100%;
+    margin: 1rem 0;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.footer :hover{
+    color: blue;
+    cursor: pointer;
+}

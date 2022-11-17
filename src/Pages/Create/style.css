@@ -1,0 +1,29 @@
+.CreateForm{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.CreateForm{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.CreateForm form{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CreateForm form p{
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.CreateForm form hr{
+    width: 100%;
+}

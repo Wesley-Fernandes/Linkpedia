@@ -1,0 +1,23 @@
+
+.social-networks-hud{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem;
+}
+.social-networks{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.social-networks svg{
+    height: 60px;
+    width: 60px;
+    color: white;
+    
+}
+.social-networks svg:hover{
+    cursor: pointer;
+    color: #e18700
+}

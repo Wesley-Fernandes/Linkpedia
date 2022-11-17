@@ -1,0 +1,7 @@
+.redes-sociais{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

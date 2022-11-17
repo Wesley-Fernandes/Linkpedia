@@ -1,0 +1,53 @@
+
+.ColorComponents{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.ColorComponents .color-box{
+    width: 40px;
+    overflow: hidden;
+}
+.color-box span{
+    position: absolute;
+    left: 300px;
+    
+}
+.separator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.separator span{
+    font-size: 1.3rem;
+    color: white;
+}
+.Centralizer main{
+    margin-top: 3rem;
+}
+.Centralizer h2{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(40vh + 75px);
+    overflow-y: scroll;
+    width: 800px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(84, 6, 253, 0.435);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
